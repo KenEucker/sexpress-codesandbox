@@ -1,14 +1,17 @@
 {
   "name": "simple-express-w-sexpress",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "The Simple Express example using seXpress",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon app.js",
+    "dev": "node app.js debug=true"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sexpress": "0.7.24"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": ["sexpress", "expressjs", "nodejs"]
 }
